@@ -17,6 +17,6 @@ end
 def take_a_number(line,last_person)
     line = []
     line << last_person
-  puts "Welcome, #{last_person}. You are number #{line.length} in line."
+#  puts "Welcome, #{last_person}. You are number #{line.length} in line."
 end 
   
