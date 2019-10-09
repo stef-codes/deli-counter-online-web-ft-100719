@@ -23,6 +23,7 @@ def take_a_number(line,last_person)
   
       line.each_with_index do |person, line_number| 
       puts "Welcome, #{person}. You are number #{line_number+ 1} in line."
+      end
     end
 end 
   
