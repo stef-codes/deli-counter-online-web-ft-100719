@@ -14,4 +14,8 @@ def line(people)
   end
 end 
 
-def 
+def take_a_number(people,last_person)
+  
+end 
+  
+end 
