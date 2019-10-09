@@ -1,4 +1,4 @@
-katz_deli = []
+#katz_deli = []
 
 def line(people)
   if people.length >= 1 
