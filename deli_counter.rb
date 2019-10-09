@@ -28,7 +28,9 @@ def take_a_number(line,last_person)
     end
 end 
 
-def now_serving 
-  
+def now_serving(line)
+  if line.length == 0 
+    puts "There is nobody waiting to be served!"
+  end
 end 
   
