@@ -8,7 +8,7 @@ def line(people)
       customers << "#{number + 1}. #{people}"
     counter += 1
   end 
-    puts "The line is currently: "#{customers.join("")}"
+    puts "The line is currently: #{customers.join("")}"
   else 
     puts "The line is currently empty."
   end
