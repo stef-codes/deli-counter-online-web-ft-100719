@@ -20,6 +20,9 @@ def take_a_number(line,last_person)
       puts "Welcome, #{last_person}. You are number #{line.length} in line."
     else 
       line.push(last_person)
+  
+      line.each_with_index do |person, line_number| 
+      puts "Welcome, #{person}. You are number #{line_number+ 1} in line."
     end
 end 
   
