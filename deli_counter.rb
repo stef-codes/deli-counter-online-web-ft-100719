@@ -18,9 +18,10 @@ def take_a_number(line,last_person)
     if line.length == 0 
       line << last_person
       puts "Welcome, #{last_person}. You are number #{line.length} in line."
-    else 
+    elsif line.length > 0 
       line.push(last_person)
-  
+      puts  "Welcome, #{last_person}. You are number #{line.length} in line."
+    else
       line.each_with_index do |person, line_number| 
       puts "Welcome, #{person}. You are number #{line_number+ 1} in line."
       end
