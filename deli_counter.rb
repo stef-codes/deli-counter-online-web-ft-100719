@@ -15,7 +15,13 @@ def line(people)
 end 
 
 def take_a_number(line,last_person)
-    line.push(last_person)
+    if line.length == 0 
+      line << last_person
+    elsif line.length > 0
+    
+    else 
+      line.push(last_person)
+    end
 #  puts "Welcome, #{last_person}. You are number #{line.length} in line."
 end 
   
