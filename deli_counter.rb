@@ -27,4 +27,8 @@ def take_a_number(line,last_person)
       end
     end
 end 
+
+def now_serving 
+  
+end 
   
